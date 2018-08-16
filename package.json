@@ -1,0 +1,30 @@
+{
+  "name": "k8w-weapp-util",
+  "version": "1.1.0",
+  "description": "微信小程序常用接口的Promise封装",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -d && cp package.json LICENSE README.md dist/",
+    "copyDts": "find src -name *.d.ts | xargs cp --target-directory dist/src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k8w/k8w-weapp-util.git"
+  },
+  "keywords": [
+    "k8w",
+    "weapp",
+    "promise"
+  ],
+  "author": "k8w",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/k8w/k8w-weapp-util/issues"
+  },
+  "homepage": "https://github.com/k8w/k8w-weapp-util#readme",
+  "typings": "index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^2.9.2"
+  }
+}
